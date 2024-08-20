@@ -3,20 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Encriptador</title>
 </head>
 <body>
+   
+    <header>
+        <img class="logo" src="./imagen/logo.png" alt="logo de Alura">
+    </header>
     <main>
-        <h1>Encriptador de Texto</h1>
-        <textarea name="encriptador" id="encripta-desencripta"></textarea>
-        <button></button>
-        <button></button>
-        <textarea name="" id=""></textarea>
+        <section class="section-1">
+            <textarea class="ingresa_texto"  placeholder="Ingrese el texto aquí" maxlength="100" id="ingresa_texto" ></textarea>
+            <div class="div-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16"><path fill="#67808E" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2a1 1 0 0 0 0-2"/></svg>
+                <p class="msg-input">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="btn_encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn_encriptar btn_encriptar-2" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>       
+        </section>
+        <aside class="section-2">
+            <textarea  class="salida_texto"  readonly id ="salida_texto"></textarea>
+            
+                 <button class="btn_copiar" onclick="copy()">Copiar</button>
+            
+        </aside>
     </main>
+    
     <footer>
-        <p> Creado por: José Zamora Alura 2024</p>
+        <p class="footer"> Creado por: José Zamora Alura 2024</p>
     </footer>
-
+<script src="/script.js"></script>  
 </body>
 </html>
+
+
+ 
