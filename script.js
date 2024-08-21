@@ -3,8 +3,7 @@ const textAreaOut = document.querySelector(".salida_texto");
 const msg_input = document.querySelector(".msg-input");
 const btnCopiar = document.querySelector(".btn_copiar");
 
-
-//window.onload = inicializar();
+window.onload = inicializar();
 window.addEventListener('resize', inicializar);
 
 // La letra "e" es convertida para "enter"
@@ -131,7 +130,7 @@ function inicializar() {
         textAreaOut.value = "";
        
         let texto = " Ningun Mensaje fue encontrado.";
-        let fila = 20;
+        let fila = 16;
         let tamanioFuenteRem = 1.2;
         let esNegrita = true;
 
