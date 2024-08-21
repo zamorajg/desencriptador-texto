@@ -111,7 +111,7 @@ main{
 
 .salida_texto{
     background: var(--color-terciario);
-    background-image: url("imagen/muneco.png");
+    background-image: url("/imagen/muneco.png");
     background-repeat: no-repeat;
     background-position: 50%;
     border: none;

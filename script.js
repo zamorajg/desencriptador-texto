@@ -4,7 +4,7 @@ const msg_input = document.querySelector(".msg-input");
 const btnCopiar = document.querySelector(".btn_copiar");
 
 
-window.onload = inicializar();
+//window.onload = inicializar();
 window.addEventListener('resize', inicializar);
 
 // La letra "e" es convertida para "enter"
