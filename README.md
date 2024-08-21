@@ -2,17 +2,17 @@
 
 # Nombre del Proyecto:
 
-<h1 align="center"> #Encriptador de Texto Web :shipit:</h1>
+<h1 align="left"> #Encriptador de Texto Web :shipit:</h1>
 
-<p align="center"> Desarrollado por José Zamora </p>
+<p align="left"> Desarrollado por José Zamora </p>
 
 <p align="center"> Proyecto encriptador de texto que forma parte del curso "Principiante en programacion G7 - Oracle ONE" </p>
 
 ## Indice 
 1. [Descripción General](#descripcion)
 2. [Funcionalidades](#funcionalidades)
-3. [Tecnologías Utilizadas](tecnologías Utilizadas)
-4. [Cómo Funciona](#acceder)
+3. [Tecnologías Utilizadas](#tecnologias)
+4. [Cómo Funciona](#Cómo)
 
 
 
